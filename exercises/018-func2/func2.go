@@ -23,15 +23,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(return1And2())
+	fmt.Println(return1And2(1, 2))
 }
 
-// This function should return two values, 1 and 2.
-// Fix the function signature (the line with the `func` keyword)
-// by adding the two returned parameters with names like
-// the last example in the problem description.
-func return1And2() {
-	a = 1
-	b = 2
+func return1And2(a, b int) (int, int) {
 	return a, b
 }
