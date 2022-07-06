@@ -18,8 +18,8 @@ func main() {
 	isTuesday := 1
 
 	price := 32.00
-	// fix this condition to accept numbers:
-	if isTuesday {
+
+	if isTuesday == 1 {
 		price = price * (1 - tuesdayDiscount)
 	}
 	fmt.Println("The price is", price)
